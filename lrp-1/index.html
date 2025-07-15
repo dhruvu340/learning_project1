@@ -1,68 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lpr-1(login page)</title>
-    <link rel="stylesheet" href="style.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>lpr-1(login page)</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-        
 <body>
-    <header>
-        <nav><a href="/home">Home</a>
-        <a href="/home">Contact</a>
-        <a href="/home">Services</a>
-        <a href="/home">About</a></nav>
+    <div class="backg"></div>
+    
+  <header>
+    <nav class="nav">
+      <a href="/home">Home</a>
+      <a href="/home">Contact</a>
+      <a href="/home">Services</a>
+      <a href="/home">About</a>
+    </nav>
 
-        <div>
-            <input type="search" name="search" placeholder="Search">
-            <i class="fa-solid fa-magnifying-glass"></i>
-        </div>
-
-    </header>
-
-    <div>
-        <div>
-            <div>
-                <h1>codehal</h1>
-                <h1>Welcome!</h1>
-                <h3>To Our New Website</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid labore similique delectus voluptate dignissimos culpa ab, assumenda, quisquam voluptatum deleniti necessitatibus est id nemo non animi!</p>
-                <div><i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-twitter"></i></div>
-
-            </div>
-            <div>
-                <h1>Sign In</h1>
-                <div><input type="text" placeholder="Email">
-                <i class="fa-solid fa-envelope"></i>
-</div>
-                <div>
-                    <input type="password" placeholder="Password">
-                    <i class="fa-solid fa-lock"></i>
-                </div>
-
-                <div>
-                    <input type="checkbox" name="remember me" id="">
-                    <label for="remember me">Remember me</label>
-                    <div>
-                        Forgot password
-                    </div>
-                </div>
-
-                <button formaction="signin">
-                    signin
-                </button>
-
-                <div>
-                    dont have an account? <span>signup</span>
-                </div>
-            </div>
-        </div>
+    <div class="input">
+      <input type="search" name="search" placeholder="Search" />
+      <button class="inputbtn"><i class="fa-solid fa-magnifying-glass"></i></button>
     </div>
+  </header>
 
+  <main>
+    <section class="content">
+      <div class="left">
+        
+        
+            <h1 class="logo"><i class="fa-solid fa-fire-flame-curved"></i>codehal</h1>
+        <div class="textsci">
+            <h2>Welcome! <br><span>To our New Website</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sint porro pariatur soluta cum similique officia tenetur aut. Nam, beatae?</p>
+       <div class="socials">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div> </div>
+        
+        
+      </div>
+
+      <div class="right">
+        <div class="login"><div class="signinhead"><h1>Sign In</h1></div>
+        <div class="input-field">
+          <input type="text" placeholder="Email" />
+          <div class="logobtnx"><i class="fa-solid fa-envelope"></i></div>
+        </div>
+
+        <div class="input-field">
+          <input type="password" placeholder="Password" />
+          <div class="logobtnx"><i class="fa-solid fa-lock"></i></div>
+        </div>
+
+        <div class="options">
+          <div class="check"><input type="checkbox" name="remember" id="remember" /><label for="remember">Remember me</label></div>
+          
+          <a href="">Forgot Password?</a>
+        </div>
+
+        <button formaction="signin" class="btn">Sign In</button>
+
+        <div class="signup">
+          Don't have an account? <span>Sign Up</span>
+        </div></div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
